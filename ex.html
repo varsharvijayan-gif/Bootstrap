@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bakery Feedback Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-warning text-white text-center">
+            <h4>Sweet Treats Bakery - Feedback Form</h4>
+        </div>
+
+        <div class="card-body">
+            <form>
+
+                <!-- Name -->
+                <div class="form-group">
+                    <label>Customer Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+
+                <!-- Order Type -->
+                <div class="form-group">
+                    <label>Type of Order</label>
+                    <select class="form-control">
+                        <option selected disabled>Select your order</option>
+                        <option>Cake</option>
+                        <option>Cookies</option>
+                        <option>Pastries</option>
+                    </select>
+                </div>
+
+                <!-- Feedback Message -->
+                <div class="form-group">
+                    <label>Feedback Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Write your feedback here"></textarea>
+                </div>
+
+                <!-- Preferred Contact Method -->
+                <div class="form-group">
+                    <label>Preferred Contact Method</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="contact" id="email">
+                        <label class="form-check-label" for="email">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="contact" id="phone">
+                        <label class="form-check-label" for="phone">
+                            Phone
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Satisfaction Level -->
+                <div class="form-group">
+                    <label>Satisfaction Level (1-10)</label>
